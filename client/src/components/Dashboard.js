@@ -87,7 +87,7 @@ useEffect(() => {
     const bookToEdit = books.find(book => book._id === bookId);
     console.log("Book to edit :", bookToEdit);
     setEditingBook(bookToEdit);
-    setIsModalOpen(true); // Assuming you're using a single modal for both adding and editing
+    setIsModalOpen(true); 
    };
 
    const handleDeleteBook = async (bookId) => {

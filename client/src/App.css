@@ -34,6 +34,10 @@ table {
   border-radius: 4px;
  }
  
+ .search-container input::placeholder{
+   color: #45a049;
+ }
+ 
  /* Pagination Styles */
  .dashboard-container {
   position: relative;
